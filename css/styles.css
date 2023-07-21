@@ -1,0 +1,278 @@
+/* Custom CSS for Navbar */
+
+/* Navbar background color */
+.navbar {
+    background-color: #471AA0;
+  }
+  
+  /* Brand logo style */
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  /* Navigation items style */
+  .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.585); /* Change to the color you prefer on hover */
+  }
+  
+  /* Active navigation item style */
+  .navbar-nav .nav-item.active .nav-link {
+    color: rgba(255, 255, 255, 0.585); /* Change to the color you prefer for the active item */
+  }
+  
+  /* Navbar toggle button style */
+  .navbar-toggler {
+    border-color: #333333; /* Change to the color you prefer for the toggle button */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("path/to/toggle-icon.png"); /* Replace with the path to your custom toggle icon */
+  }
+  
+  /* Centered navigation items on small screens */
+  @media (max-width: 767.98px) {
+    .navbar-nav {
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+    }
+  
+    .navbar-nav .nav-item {
+      display: table-cell;
+      float: none;
+    }
+  
+    .navbar-nav .nav-link {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #007bff; /* Change to the color you prefer on hover */
+    }
+  }
+  
+  .navbar-collapse{
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+  }
+  #home{
+    width: 100%;
+    height: 500px;
+    color: white;
+  }
+  #home h1{
+    font-size: 110px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    top: 100px;
+  }
+  #about{
+    margin-top: 50px;
+  }
+
+  .mainp{
+    margin-left: 25%;
+  }
+  .mainh1{
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+    margin-left: 80px;
+  }
+
+  .mainh11{
+    margin-bottom: 40px
+  }
+  #features{
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    margin-left: 151px;
+    
+  }
+  #features .mainh22{
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+  }
+  .mainp2{
+    z-index: 1000;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+  }
+  .m1{
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(222,115,77,0.6);
+    margin: 20px;
+    margin-left: 60px;
+  }
+
+  section.product-showcase {
+    padding: 40px 0;
+  }
+  
+  section.product-showcase h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .product .add-to-cart {
+    background-color: #471AA0;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product .add-to-cart:hover {
+    background-color: #471aa0b7;
+  }
+  .customer-testimonials{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+  }
+  .customer-testimonials h2{
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  .fikrlar{
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  .fikr1{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: #ff4400b6;
+    border: 2px solid white;
+
+  }
+  .fikr1 p{
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .fikr1 h6{
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  
+footer {
+  background-color: #471AA0;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.footer-logo {
+  max-width: 150px;
+}
+
+.footer-links {
+  margin-top: 30px;
+}
+
+.footer-links a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.footer-links a:hover {
+  color: #f8f9fa;
+}
+
+.footer-social {
+  margin-top: 30px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.footer-social a:hover {
+  color: #f8f9fa;
+}
